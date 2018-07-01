@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: internal-meetup-eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+server:
+  servlet:
+    context-path: /eureka

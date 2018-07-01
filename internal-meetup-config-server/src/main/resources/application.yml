@@ -1,0 +1,10 @@
+spring:
+  application:
+    name:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/developer-guy/internal-meetup-config-repository
+server:
+  port: 8888
