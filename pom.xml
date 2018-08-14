@@ -6,7 +6,7 @@
     <groupId>com.internal.meetup.parent</groupId>
     <artifactId>internal-meetup-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>internal-meetup-parent</name>
     <description>Parent POM for internal meetup project</description>
@@ -24,6 +24,11 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <modules>
+        <module>educator-service</module>
+        <module>internal-meetup-config-server</module>
+        <module>internal-meetup-eureka-server</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
